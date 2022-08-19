@@ -11,3 +11,7 @@
 <%= "%-12s" % @real_user %>  soft  <%= "%-14s" % @real_type %>  <%= @soft %>
 <% end -%>
 <% end -%>
+
+<% if limit_type.kind_of?(Hash) -%>
+I am a hash
+<% end -%>
